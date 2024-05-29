@@ -3,7 +3,7 @@ import requests
 import json
 from ai_engine import UAgentResponse, UAgentResponseType
 
-OPENAI_API_KEY = "sk-proj-bgGaJc1BFQqgGRXiPFipT3BlbkFJUUCgEBTclZOquyXzHH2Z"
+OPENAI_API_KEY = "sss"
 
 # Configuration for making requests to OpenAI
 OPENAI_URL = "https://api.openai.com/v1/chat/completions"
