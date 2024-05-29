@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outfit Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Outfit Recommendation</h1>
+        <form id="recommendation-form">
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age" required>
+
+            <label for="size">Size:</label>
+            <input type="text" id="size" name="size" required>
+
+            <label for="weather">Weather:</label>
+            <input type="text" id="weather" name="weather" required>
+
+            <label for="place">Place:</label>
+            <input type="text" id="place" name="place" required>
+
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" name="gender" required>
+
+            <label for="occasion">Occasion:</label>
+            <input type="text" id="occasion" name="occasion">
+
+            <label for="style">Style:</label>
+            <input type="text" id="style" name="style">
+
+            <button type="submit">Get Recommendations</button>
+        </form>
+        <div id="recommendations"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
